@@ -1,0 +1,40 @@
+﻿Build started 4/28/2015 5:05:14 AM.
+     1>Project "E:\Courses\OOD\Project4\Final\CppCli-WPF-App\Client\Client.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D TEST_CLIENT /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Handlers\Communication.cpp
+         Communication.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(1149): error C2197: 'void (__cdecl *)(std::string,size_t)' : too many arguments for call
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(1137) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>::_Do_call<,0,1,2>(std::tuple<>,std::_Arg_idx<0,1,2>)' being compiled
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(1137) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>::_Do_call<,0,1,2>(std::tuple<>,std::_Arg_idx<0,1,2>)' being compiled
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\thr\xthread(195) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>::operator ()<>(void)' being compiled
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\thr\xthread(195) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>::operator ()<>(void)' being compiled
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\thr\xthread(192) : while compiling class template member function 'unsigned int std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *)'
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\thr\xthread(187) : see reference to function template instantiation 'unsigned int std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *)' being compiled
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\thr\xthread(205) : see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\thread(49) : see reference to function template instantiation 'void std::_Launch<std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>>(_Thrd_t *,_Target &&)' being compiled
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(std::string,size_t),Sender *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned int>
+                 ]
+                 e:\courses\ood\project4\final\cppcli-wpf-app\handlers\communication.cpp(134) : see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(std::string,size_t),Sender*const ,std::string&,size_t&>(_Fn,Sender *const &&,std::string &,size_t &)' being compiled
+                 with
+                 [
+                     _Fn=void (__cdecl &)(std::string,size_t)
+                 ]
+     1>Done Building Project "E:\Courses\OOD\Project4\Final\CppCli-WPF-App\Client\Client.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.47
